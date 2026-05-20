@@ -1,16 +1,16 @@
 # C++ CRUD List Application
 
-A simple console-based application that allows users to Create, Read, Update, and Delete items in a list.
+Um aplicativo simples baseado em console que permite aos usuários criar, ler, atualizar e excluir itens em uma lista.
 
 ---
 
 ## Features
 
-- Add new items to the list
-- View all items
-- Update existing items
-- Delete items by index
-- Menu-driven console interface
+- Adicionar novos itens à lista
+- Ver todos os itens
+- Atualizar itens existentes
+- Remover itens por índice
+- Interface de console orientada por menus
 
 ---
 
@@ -24,7 +24,7 @@ A simple console-based application that allows users to Create, Read, Update, an
 - Functions
 - Loops (while / for)
 - Conditionals (if / switch)
-- Vectors or arrays
+- Arrays and Structures
 - Basic input validation
 - Modular programming
 
@@ -32,6 +32,6 @@ A simple console-based application that allows users to Create, Read, Update, an
 
 ## How to Run
 
-```bash id="cpp2"
+```
 g++ Miniprojeto3_Rui.cpp -o crud
 ./crud
