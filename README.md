@@ -33,5 +33,5 @@ A simple console-based application that allows users to Create, Read, Update, an
 ## How to Run
 
 ```bash id="cpp2"
-g++ main.cpp -o crud
+g++ Miniprojeto3_Rui.cpp -o crud
 ./crud
