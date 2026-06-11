@@ -6,15 +6,15 @@ Um aplicativo simples baseado em console que permite aos usuários criar, ler, a
 
 ## Features
 
-# Adicionar novos itens à lista
+### Adicionar novos itens à lista
 ![CREATE](screenshots/Create_1.png)
-# Ver todos os itens
+### Ver todos os itens
 ![READ](screenshots/Read.png)
-# Atualizar itens existentes
+### Atualizar itens existentes
 ![UPDATE](screenshots/Update_1.png)
-# Remover itens por índice
+### Remover itens por índice
 ![REMOVE](screenshots/Remove_1.png)
-# Interface de console orientada por menus
+### Interface de console orientada por menus
 ![MENU](screenshots/menu.png)
 
 ---
@@ -39,7 +39,7 @@ Um aplicativo simples baseado em console que permite aos usuários criar, ler, a
 
 ## How to Build & Run
 
-# Usar CMake (recomendado)
+### Usar CMake (recomendado)
 
 ```
 git clone https://github.com/Excalibur202/Miniprojeto3.git
@@ -54,7 +54,7 @@ cmake --build .
 ./ProjectName
 ```
 
-# Usar g++
+### Usar g++
 
 ```
 g++ Miniprojeto3_Rui.cpp -o main
