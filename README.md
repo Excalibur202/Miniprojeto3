@@ -1,37 +1,63 @@
 # C++ CRUD List Application
 
-A simple console-based application that allows users to Create, Read, Update, and Delete items in a list.
+Um aplicativo simples baseado em console que permite aos usuários criar, ler, atualizar e excluir itens em uma lista.
 
 ---
 
 ## Features
 
-- Add new items to the list
-- View all items
-- Update existing items
-- Delete items by index
-- Menu-driven console interface
+# Adicionar novos itens à lista
+![CREATE](screenshots/Create_1.png)
+# Ver todos os itens
+![READ](screenshots/Read.png)
+# Atualizar itens existentes
+![UPDATE](screenshots/Update_1.png)
+# Remover itens por índice
+![REMOVE](screenshots/Remove_1.png)
+# Interface de console orientada por menus
+![MENU](screenshots/menu.png)
 
 ---
 
 ## Tech Stack
+
 - C++
 - Standard Library (iostream, vector, etc.)
 
 ---
 
 ## Concepts Practiced
-- Functions
-- Loops (while / for)
-- Conditionals (if / switch)
-- Vectors or arrays
-- Basic input validation
-- Modular programming
+
+- Funções
+- Ciclos (while / for)
+- Condicionais (if / switch)
+- Structs e arrays
+- Validação de input basico
+- Programação modular
 
 ---
 
-## How to Run
+## How to Build & Run
 
-```bash id="cpp2"
-g++ Miniprojeto3_Rui.cpp -o crud
-./crud
+# Usar CMake (recomendado)
+
+```
+git clone https://github.com/Excalibur202/Miniprojeto3.git
+cd Miniprojeto3
+
+mkdir build
+cd build
+
+cmake ..
+cmake --build .
+
+./ProjectName
+```
+
+# Usar g++
+
+```
+g++ Miniprojeto3_Rui.cpp -o main
+./main
+```
+
